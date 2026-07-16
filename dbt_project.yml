@@ -49,9 +49,7 @@ models:
         - powerbi
         - report
       +schema: marts
-    # Config indicated by + and applies to all files under models/example/
-    # example:
-    #   +materialized: view
+
 
 vars:
   token_name_var: 'tron'
